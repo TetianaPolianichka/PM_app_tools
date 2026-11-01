@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": ["Edit(raw/**)", "Write(raw/**)", "MultiEdit(raw/**)"],
+    "allow": [
+      "Read(raw/**)", "Read(wiki/**)", "Edit(wiki/**)", "Write(wiki/**)", "Edit(artifacts/**)", "Write(artifacts/**)",
+      "Read(.claude/skills/**)",
+      "Bash(python3 .claude/skills/ab-testing/scripts/stats.py *)",
+      "Bash(python3 -I .claude/skills/ab-testing/scripts/stats.py *)",
+      "mcp__purchasely__list-endpoints",
+      "mcp__purchasely__search-endpoints",
+      "mcp__purchasely__get-endpoint"
+    ]
+  }
+}
